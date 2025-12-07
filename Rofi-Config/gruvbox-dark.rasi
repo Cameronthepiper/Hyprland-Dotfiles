@@ -1,0 +1,36 @@
+* {
+    bg:    #282828;
+    bg-alt:#32302F;
+    fg:    #EBDBB2;
+    fg-alt:#D5C4A1;
+}
+
+window {
+    background-color: @bg;
+    border: 2px solid #3C3836;
+    padding: 20px;
+}
+
+prompt {
+    background-color: @bg-alt;
+    padding: 10px;
+}
+
+inputbar {
+    background-color: @bg-alt;
+    padding: 10px;
+}
+
+listview {
+    background-color: @bg;
+}
+
+element {
+    padding: 8px;
+    text-color: @fg-alt;
+}
+
+element selected {
+    background-color: #3C3836;
+    text-color: @fg;
+}
