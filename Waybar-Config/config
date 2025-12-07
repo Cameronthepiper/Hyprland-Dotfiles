@@ -1,0 +1,88 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 32,
+    "margin": "5 10 0 10",
+    "spacing": 12,
+
+    "modules-left": [
+        "hyprland/workspaces",
+    ],
+
+    "modules-center": [
+        "clock"
+    ],
+
+    "modules-right": [
+        "network",
+        "pulseaudio",
+        "bluetooth",
+        "battery",
+        "cpu",
+        "memory",
+        "tray"
+    ],
+
+    "hyprland/workspaces": {
+        "disable-scroll": false,
+        "on-click": "activate",
+        "all-outputs": true,
+        "format": "{icon}",
+        "format-icons": {
+            "default": "-",
+            "active": "x"
+        }
+    },
+
+    "clock": {
+        "format": "{:%a %d %b - %H:%M}",
+        "tooltip": false
+    },
+
+    "network": {
+        "format-wifi": "󰤨  {signalStrength}%",
+        "format-ethernet": "󰈀  {ipaddr}",
+        "format-disconnected": "󰤭",
+        "tooltip": true
+    },
+
+    "pulseaudio": {
+        "format": "󰕾 {volume}%",
+        "format-muted": "󰝟",
+        "scroll-step": 5,
+        "on-click": "~/.config/waybar/pulse-select.sh"
+    },
+
+    "battery": {
+        "format": "{capacity}% {icon}",
+        "format-icons": ["󰂎","󰁼","󰁿","󰂁","󰁹"],
+        "tooltip": true
+    },
+
+    "cpu": {
+        "format": " {usage}%",
+        "tooltip": false
+    },
+
+    "memory": {
+        "format": " {used}G",
+        "tooltip": false
+    },
+
+    "tray": {
+        "icon-size": 16,
+        "spacing": 8
+    },
+
+    "bluetooth": {
+    "format": "{icon}",
+    "format-icons": {
+        "enabled": "",
+        "disabled": ""
+    },
+    "on-click": "blueman-manager"
+}
+
+
+
+}
