@@ -6,6 +6,23 @@ Personal dotfiles for **Manjaro + Hyprland** on a ThinkPad E14 Gen 5.
 
 ---
 
+### Stack
+
+| Role          | Tool                              |
+|---------------|-----------------------------------|
+| WM            | Hyprland 0.53.3                   |
+| Bar           | Waybar                            |
+| Terminal      | Alacritty 0.16.1                  |
+| Shell         | Bash 5.3.9                        |
+| Editor        | Neovim + LazyVim                  |
+| Editor        | Doom Emacs                        |
+| Launcher      | Rofi                              |
+| Music         | spotify_player                    |
+| Font          | JetBrainsMono Nerd Font Mono      |
+| Fetch         | fastfetch                         |
+
+---
+
 # Gruvbox Material Warm
 
 A medium-dark Gruvbox variant built on a warm grey background inspired by Material Design's dark tone. Classic Gruvbox cream foregrounds and yellow/orange/red accents on a `#32302f` base — lighter and warmer than stock Gruvbox dark.
@@ -184,18 +201,3 @@ Then run `doom sync` and restart Emacs.
 **Waybar / Alacritty / Rofi** — hot-reload on save, or restart the application.
 
 ---
-
-### Stack
-
-| Role          | Tool                              |
-|---------------|-----------------------------------|
-| WM            | Hyprland 0.53.3                   |
-| Bar           | Waybar                            |
-| Terminal      | Alacritty 0.16.1                  |
-| Shell         | Bash 5.3.9                        |
-| Editor        | Neovim + LazyVim                  |
-| Emacs         | Doom Emacs                        |
-| Launcher      | Rofi                              |
-| Music         | ncspot                            |
-| Font          | JetBrainsMono Nerd Font Mono      |
-| Fetch         | neofetch                          |
