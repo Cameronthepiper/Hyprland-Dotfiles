@@ -12,8 +12,9 @@ A green-shifted Gruvbox colour scheme. Dark grey-green backgrounds with moss, li
 
 ### Screenshots
 
-![LazyVim + Neofetch](screenshots/grove-neovim.png)
-![ncspot + wiki-tui + sysup](screenshots/grove-desktop.png)
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/6a90c39b-6b4a-4a18-a1fd-d3608a9e3e15" />
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/6a90c39b-6b4a-4a18-a1fd-d3608a9e3e15" />
 
 ---
 
