@@ -6,6 +6,94 @@ Personal dotfiles for **Manjaro + Hyprland** on a ThinkPad E14 Gen 5.
 
 ---
 
+# Gruvbox Material Warm
+
+A medium-dark Gruvbox variant built on a warm grey background inspired by Material Design's dark tone. Classic Gruvbox cream foregrounds and yellow/orange/red accents on a `#32302f` base — lighter and warmer than stock Gruvbox dark.
+
+### Screenshot
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/d5e31c0c-0eaa-42da-a660-48672c80dfe7" />
+
+---
+
+### Palette
+
+#### Backgrounds
+
+| Name      | Hex       | Usage                   |
+|-----------|-----------|-------------------------|
+| `bg-hard` | `#28262a` | Hardcoded dark           |
+| `bg`      | `#32302f` | Main background          |
+| `bg-soft` | `#3a3735` | Floats, sidebars         |
+| `bg1`     | `#45403d` | Selection                |
+| `bg2`     | `#504945` | Cursor line              |
+| `bg3`     | `#5a5248` | Splits, columns          |
+| `bg4`     | `#665c54` | Inactive statusline      |
+
+#### Foregrounds
+
+| Name      | Hex       | Usage                   |
+|-----------|-----------|-------------------------|
+| `fg-hard` | `#fbf1c7` | Brightest text           |
+| `fg`      | `#ebdbb2` | Main text                |
+| `fg-soft` | `#d5c4a1` | Dimmed text              |
+| `fg1`     | `#bdae93` | Muted                    |
+| `fg2`     | `#a89984` | More muted               |
+| `fg3`     | `#928374` | Subtle                   |
+| `fg4`     | `#7c6f64` | Very subtle              |
+
+#### Accents
+
+| Name        | Hex       | Usage                        |
+|-------------|-----------|------------------------------|
+| `yellow`    | `#d79921` | Keywords, active workspace   |
+| `yellow-br` | `#fabd2f` | Search, bright highlights    |
+| `orange`    | `#fe8019` | Functions, operators         |
+| `orange-dk` | `#d65d0e` | Numbers                      |
+| `red`       | `#cc241d` | Errors (dark)                |
+| `red-br`    | `#fb4934` | Errors (bright)              |
+| `green`     | `#98971a` | Strings (dark)               |
+| `green-br`  | `#b8bb26` | Strings (bright)             |
+| `blue`      | `#458588` | Special, macro               |
+| `blue-br`   | `#83a598` | Types, builtins              |
+| `purple`    | `#b16286` | Parameters, tags             |
+| `purple-br` | `#d3869b` | Bright purple                |
+| `aqua`      | `#689d6a` | Builtins (dark)              |
+| `aqua-br`   | `#8ec07c` | Builtins (bright)            |
+| `comment`   | `#665c54` | Comments                     |
+
+---
+
+### Themed Components
+
+| Component  | File                                                  |
+|------------|-------------------------------------------------------|
+| Neovim     | `~/.config/nvim/colors/gruvbox-material-warm.lua`     |
+
+---
+
+### Install
+
+```bash
+cp gruvbox-material-warm.lua ~/.config/nvim/colors/
+```
+
+Then in your LazyVim config:
+
+```lua
+vim.cmd("colorscheme gruvbox-material-warm")
+```
+
+---
+
+### vs Gruvbox Grove
+
+| | Gruvbox Material Warm | Gruvbox Grove |
+|---|---|---|
+| Background | Warm grey-brown `#32302f` | Green-grey `#22261e` |
+| Accents | Classic yellows, oranges, reds | Moss, lime, forest greens |
+| Feel | Familiar Gruvbox, more breathing room | Green-shifted, earthy |
+
 ## Gruvbox Grove
 
 A green-shifted Gruvbox colour scheme. Dark grey-green backgrounds with moss, lime and forest green accents replacing the classic Gruvbox yellows. Reds and ambers are kept but muted.
