@@ -6,3 +6,7 @@ Repo for my Hyprland Dotfiles
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/a51f4e03-7ca5-4f02-b04f-f238e772a067" />
 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/10b50a4c-ebcf-43ae-98e7-776755e30496" />
+
+## Gruvbox-Grove Varient
+
+<img width="1440" height="1986" alt="image" src="https://github.com/user-attachments/assets/1d762acc-8858-4763-958b-55087423625d" />
