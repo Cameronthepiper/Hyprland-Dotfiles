@@ -1,0 +1,55 @@
+* {
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 15px;
+    color: #dde0c0;
+}
+
+window#waybar {
+    background: rgba(34, 38, 30, 0.85);
+    border-radius: 2px;
+    padding: 5px 5px;
+}
+
+/* Spacing between modules */
+#workspaces, #network, #pulseaudio, #battery, #cpu, #memory, #tray, #clock {
+    margin: 0 6px;
+}
+
+/* Workspaces */
+#workspaces button {
+    background: transparent;
+    color: #6d7d60;
+    padding: 6px 6px;
+    border-radius: 2px;
+    margin-right: 6px;
+}
+
+#workspaces button.active {
+    background: #7fbf5f;
+    color: #1d2117;
+    font-weight: bold;
+}
+
+/* Nightlight module spacing */
+#custom-nightlight {
+    padding-left: 4px;
+    padding-right: 8px;
+    margin-left: 4px;
+    margin-right: 6px;
+    font-size: 16px;
+}
+
+#custom-glitch-clock {
+    font-family: JetBrainsMono Nerd Font;
+    font-weight: 600;
+}
+
+/* Modules */
+#clock      { color: #dde0c0; }
+#tray       { color: #55aaaa; }
+#pulseaudio { color: #cc99aa; }
+#battery    { color: #a3c96b; }
+#cpu        { color: #a8943a; }
+#custom-nightlight { color: #dde0c0; }
+#memory     { color: #cc6655; }
+#bluetooth  { color: #6699cc; }
