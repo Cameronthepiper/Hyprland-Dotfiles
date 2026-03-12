@@ -10,9 +10,13 @@ Personal dotfiles for **Manjaro + Hyprland** on a ThinkPad E14 Gen 5.
 
 A medium-dark Gruvbox variant built on a warm grey background inspired by Material Design's dark tone. Classic Gruvbox cream foregrounds and yellow/orange/red accents on a `#32302f` base — lighter and warmer than stock Gruvbox dark.
 
-### Screenshot
+### Screenshots
 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/d5e31c0c-0eaa-42da-a660-48672c80dfe7" />
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/62cf6c0c-1a57-46d0-bf57-230d137b19cd" />
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/12c2a541-8875-4837-80bf-bc45e4104363" />
 
 ---
 
